@@ -1,0 +1,48 @@
+/* Site needs to have a custom color scheme */
+body {
+    background-color: #3f4e6a;
+    color:#c4d1dd;
+}
+
+thead, tbody {
+    background-color: #3b3b3b;
+    color:#c4d1dd;
+
+}
+
+table {
+    width: 75%;
+    margin: 100px auto;
+    max-width: 1200px;
+    background-color: #fff;
+}
+
+table, th, tbody, td {
+    border: 1px solid #000;
+}
+
+h1 {
+    width:430px;
+    margin: 0 auto;
+    display:block;
+}
+
+h2 {
+    
+    min-width: 430px;
+    max-width: 500px;
+    margin: 0 auto;
+    display:block;
+
+}
+
+li {
+    list-style-type: none;
+}
+
+/* formatted code should be styled in monospace font */
+.code {
+    font-family: monospace;
+    background-color: #c4d1dd;
+    color: #3b3b3b;
+}
