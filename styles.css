@@ -2,6 +2,9 @@
 body {
     background-color: #3f4e6a;
     color:#c4d1dd;
+    font-size: 1em;
+    font-family: sans-serif;
+    
 }
 
 thead, tbody {
@@ -22,7 +25,7 @@ table, th, tbody, td {
 }
 
 h1 {
-    width:430px;
+    width:500px;
     margin: 0 auto;
     display:block;
 }
@@ -30,7 +33,7 @@ h1 {
 h2 {
     
     min-width: 430px;
-    max-width: 500px;
+    max-width: 550px;
     margin: 0 auto;
     display:block;
 
@@ -40,9 +43,27 @@ li {
     list-style-type: none;
 }
 
+p, span, li {
+    line-height: 1.2em;
+}
+
 /* formatted code should be styled in monospace font */
 .code {
     font-family: monospace;
     background-color: #c4d1dd;
     color: #3b3b3b;
+}
+
+.col-title {
+    text-transform: uppercase;
+    font-size: 1.4em;
+}
+
+.table-title {
+    font-size: 2em;
+}
+
+.attribute-values {
+    display: flex;
+    justify-content: center;
 }
